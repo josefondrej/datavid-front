@@ -4,6 +4,14 @@ import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import TeamBios from "./TeamBios";
 
+const shuffle = (a) => {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 function TeamBiosSection(props) {
   return (
     <Section
@@ -22,7 +30,7 @@ function TeamBiosSection(props) {
           className="text-center"
         ></SectionHeader>
         <TeamBios
-          items={[
+          items={shuffle([
             {
               avatar: "https://avatars2.githubusercontent.com/u/50045455?s=460&u=0660b482f78425d0e7e69c7bf8696959181e0b25&v=4",
               name: "Tomáš Kouřim",
@@ -103,7 +111,7 @@ function TeamBiosSection(props) {
               facebookUrl: "https://facebook.com",
               linkedinUrl: "https://linkedin.com"
             }
-          ]}
+          ])}
         ></TeamBios>
       </Container>
     </Section>
