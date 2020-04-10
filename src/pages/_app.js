@@ -8,6 +8,7 @@ import PricingPage from "./pricing";
 import AddDataPage from "./adddata";
 import ViewDataPage from "./viewdata";
 import DashboardPage from "./dashboard";
+import ContactPage from "./contact";
 import AuthTypePage from "./authtype";
 import { Switch, Route, Router } from "./../util/router.js";
 import Footer from "./../components/Footer";
@@ -22,7 +23,7 @@ function App(props) {
             bg="white"
             variant="light"
             expand="md"
-            logo="https://uploads.divjoy.com/logo.svg"
+            logo="/logo.png"
           ></NavbarCustom>
 
           <Switch>
@@ -41,6 +42,9 @@ function App(props) {
             <Route exact path="/dashboard" component={DashboardPage} />
 
             <Route exact path="/auth/:type" component={AuthTypePage} />
+
+            <Route exact path="/contact" component={ContactPage} />
+
 
             <Route
               component={({ location }) => {
@@ -68,7 +72,7 @@ function App(props) {
             bgImageOpacity={1}
             description="A short description of what you do here"
             copyright="© 2020 DataVid"
-            logo="https://uploads.divjoy.com/logo.svg"
+            logo="/logo.png"
           ></Footer>
         </>
       </Router>

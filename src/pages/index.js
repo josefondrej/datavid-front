@@ -4,7 +4,7 @@ import ClientsSection from "./../components/ClientsSection";
 import FeaturesSection from "./../components/FeaturesSection";
 import TestimonialsSection from "./../components/TestimonialsSection";
 import NewsletterSection from "./../components/NewsletterSection";
-import { useRouter } from "./../util/router.js";
+import {useRouter} from "./../util/router.js";
 
 function IndexPage(props) {
   const router = useRouter();
@@ -17,14 +17,14 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Your landing page title here"
-        subtitle="This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan."
+        title="Welcome to DataVid"
+        subtitle="Datavid - the ultimate tool to fight coronavirus using data - is a web and mobile based application used to collect vital patient information. It is a virtual assistant activated by a single click that helps medical doctors extract and store all relevant coronavirus related information about a patient - age, sex, comorbidities, epidemic anamnesis, medication, symptoms, time since infection etc. It uses speech-to-text modules to quickly collect all information and AI based tools to filter and assess the information provided by the doctor. The assistant also makes sure the doctor did not forget to mention any important part of the diagnosis."
         buttonText="Get Started"
         buttonColor="primary"
-        image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
+        image="/logo.png"
         buttonOnClick={() => {
           // Navigate to pricing page
-          router.push("/pricing");
+          router.push("/dashboard");
         }}
       ></HeroSection>
       <ClientsSection
@@ -51,22 +51,22 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Here's what people are saying"
+        title="Here's what users are saying"
         subtitle=""
       ></TestimonialsSection>
-      <NewsletterSection
-        bg="white"
-        textColor="dark"
-        size="md"
-        bgImage=""
-        bgImageOpacity={1}
-        title="Stay in the know"
-        subtitle="Receive our latest articles and feature updates"
-        buttonText="Subscribe"
-        buttonColor="primary"
-        inputPlaceholder="Enter your email"
-        subscribedMessage="You are now subscribed!"
-      ></NewsletterSection>
+      {/*<NewsletterSection*/}
+      {/*  bg="white"*/}
+      {/*  textColor="dark"*/}
+      {/*  size="md"*/}
+      {/*  bgImage=""*/}
+      {/*  bgImageOpacity={1}*/}
+      {/*  title="Stay in the know"*/}
+      {/*  subtitle="Receive our latest articles and feature updates"*/}
+      {/*  buttonText="Subscribe"*/}
+      {/*  buttonColor="primary"*/}
+      {/*  inputPlaceholder="Enter your email"*/}
+      {/*  subscribedMessage="You are now subscribed!"*/}
+      {/*></NewsletterSection>*/}
     </>
   );
 }

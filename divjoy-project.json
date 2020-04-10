@@ -7304,7 +7304,7 @@
           "type": "instance",
           "componentId": 7907106,
           "id": 4920718,
-          "attributes": "{\n  // Background color\n  // primary, secondary, success, danger,\n  // warning, info, white, light, dark\n  bg: \"white\",\n  // light, dark\n  variant: \"light\",\n  // Collapse at breakpoint\n  // sm, md, lg\n  expand: \"md\",\n\t// Logo image url\n  logo: \"https://uploads.divjoy.com/logo.svg\"\n}",
+          "attributes": "{\n  // Background color\n  // primary, secondary, success, danger,\n  // warning, info, white, light, dark\n  bg: \"white\",\n  // light, dark\n  variant: \"light\",\n  // Collapse at breakpoint\n  // sm, md, lg\n  expand: \"md\",\n\t// Logo image url\n  logo: \"/logo.png\"\n}",
           "isVisible": true,
           "children": [],
           "propsArray": [
@@ -7328,7 +7328,7 @@
             },
             {
               "key": "logo",
-              "value": "https://uploads.divjoy.com/logo.svg",
+              "value": "/logo.png",
               "isString": true,
               "type": "StringLiteral"
             }
@@ -7457,7 +7457,7 @@
             },
             {
               "key": "logo",
-              "value": "https://uploads.divjoy.com/logo.svg",
+              "value": "/logo.png",
               "isString": true,
               "type": "StringLiteral"
             }

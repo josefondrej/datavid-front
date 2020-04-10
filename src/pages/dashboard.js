@@ -29,7 +29,7 @@ function DashboardPage(props) {
         bgImage=""
         bgImageOpacity={1}
         title="Dashboard"
-        subtitle="Welcome to DataVid. Select, iy ou want to record or view patient data"
+        subtitle="Welcome to DataVid. Select, if you want to record or view patient data"
       >
       </DashboardSection>
       <Row className="align-items-center">

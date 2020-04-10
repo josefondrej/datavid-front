@@ -1,21 +1,21 @@
 import React from "react";
-import ContactSection from "./../components/ContactSection";
+import ViewPatientDataSection from "./../components/ViewPatientDataSection";
 
 function ViewDataPage(props) {
   return (
-    <ContactSection
+    <ViewPatientDataSection
       bg="white"
       textColor="dark"
       size="md"
       bgImage=""
       bgImageOpacity={1}
-      title="Contact Us"
+      title="View Patient Data"
       subtitle=""
-      buttonText="Send message"
+      buttonText="Load data"
       buttonColor="primary"
       showNameField={true}
       inputSize="md"
-    ></ContactSection>
+    ></ViewPatientDataSection>
   );
 }
 

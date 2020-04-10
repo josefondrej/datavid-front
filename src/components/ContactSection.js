@@ -2,7 +2,6 @@ import React from "react";
 import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
-import Contact from "./Contact";
 
 function ContactSection(props) {
   return (
@@ -25,12 +24,7 @@ function ContactSection(props) {
           spaced={true}
           className="text-center"
         ></SectionHeader>
-        <Contact
-          showNameField={props.showNameField}
-          buttonText={props.buttonText}
-          buttonColor={props.buttonColor}
-          inputSize={props.inputSize}
-        ></Contact>
+        Tomas Novak, nekde v Praze.
       </Container>
     </Section>
   );

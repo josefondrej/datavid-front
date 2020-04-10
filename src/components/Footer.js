@@ -19,6 +19,7 @@ function Footer(props) {
             <Link to="/">
               <img src={props.logo} alt="Logo"></img>
             </Link>
+              &nbsp;&nbsp;DataVid
           </div>
           <div className="links right">
             <Link to="/about">About</Link>

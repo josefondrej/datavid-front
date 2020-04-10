@@ -23,23 +23,13 @@ function ClientsSection(props) {
         <Clients
           items={[
             {
-              name: "Instagram",
-              image: "https://uploads.divjoy.com/logo-instagram.svg",
+              name: "Pornhub",
+              image: "https://download.logo.wine/logo/Pornhub/Pornhub-Logo.wine.png",
               width: "150px"
             },
             {
-              name: "Slack",
-              image: "https://uploads.divjoy.com/logo-slack.svg",
-              width: "135px"
-            },
-            {
-              name: "Tinder",
-              image: "https://uploads.divjoy.com/logo-tinder.svg",
-              width: "90px"
-            },
-            {
-              name: "Spotify",
-              image: "https://uploads.divjoy.com/logo-spotify.svg",
+              name: "Agrofert",
+              image: "https://i.pinimg.com/originals/07/72/03/077203a0940440805a622d78b541ed43.jpg",
               width: "135px"
             }
           ]}
