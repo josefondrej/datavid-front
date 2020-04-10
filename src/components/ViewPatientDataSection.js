@@ -36,7 +36,7 @@ function ViewPatientDataSection(props) {
               size={props.size}
               type="submit"
             >
-              {props.buttonText}
+              TEST API CALL
             </Button>
           </Col>
         </Form.Row>

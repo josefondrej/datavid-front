@@ -30,17 +30,17 @@ function FeaturesSection(props) {
               image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg"
             },
             {
-              title: "Explore",
+              title: "Speech Recognition",
               description:
                 "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
               image:
-                "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg"
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Speech-to-text.svg/2560px-Speech-to-text.svg.png"
             },
             {
-              title: "Explore",
+              title: "Prescription",
               description:
                 "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg"
+              image: "http://m4solutions.com.sg/wp-content/uploads/2016/01/MedicalDox-300x300.png"
             },
             {
               title: "Explore",

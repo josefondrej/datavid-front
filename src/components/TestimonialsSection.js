@@ -24,25 +24,25 @@ function TestimonialsSection(props) {
         <Testimonials
           items={[
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-5.jpeg",
-              name: "Sarah Kline",
+              avatar: "https://avatars2.githubusercontent.com/u/50045455?s=460&u=0660b482f78425d0e7e69c7bf8696959181e0b25&v=4",
+              name: "Tomas Novak",
               testimonial:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-              company: "Company"
+                "Zelenou?",
+              company: "Self employee"
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-48.jpeg",
-              name: "Shawna Murray",
+              avatar: "https://avatars0.githubusercontent.com/u/14038818?s=460&u=7a30f58316cdc01ca00d9281a69e16d6db9b4435&v=4",
+              name: "Lukas Forrester",
               testimonial:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!",
-              company: "Company"
+                "Jezisi marne!",
+              company: "Dudak"
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-12.jpeg",
-              name: "Blake Elder",
+              avatar: "https://www.patria.cz/Fotobank/6d9831ea-faec-4e65-aa4b-02e8a38e0ec1?width=201&height=250&action=Resize&position=Center",
+              name: "Andrej Babis",
               testimonial:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae.",
-              company: "Company"
+                "Je to kampan!",
+              company: "Vubec nic"
             }
           ]}
         ></Testimonials>
