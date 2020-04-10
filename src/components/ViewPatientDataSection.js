@@ -41,8 +41,6 @@ function ViewPatientDataSection(props) {
           </Col>
         </Form.Row>
       </Form>
-      )}
-
 
       <Container
         style={{

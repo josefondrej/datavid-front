@@ -19,5 +19,9 @@
   &__image-container {
     max-width: 300px;
     margin: 30px auto;
+
+    img {
+      width: 150px;
+    }
   }
 }

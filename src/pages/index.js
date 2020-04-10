@@ -5,6 +5,7 @@ import FeaturesSection from "./../components/FeaturesSection";
 import TestimonialsSection from "./../components/TestimonialsSection";
 import NewsletterSection from "./../components/NewsletterSection";
 import {useRouter} from "./../util/router.js";
+import TeamBiosSection from "../components/TeamBiosSection";
 
 function IndexPage(props) {
   const router = useRouter();
@@ -17,7 +18,7 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Welcome to DataVid"
+        title="Welcome to DataVID"
         subtitle="Datavid - the ultimate tool to fight coronavirus using data - is a web and mobile based application used to collect vital patient information. It is a virtual assistant activated by a single click that helps medical doctors extract and store all relevant coronavirus related information about a patient - age, sex, comorbidities, epidemic anamnesis, medication, symptoms, time since infection etc. It uses speech-to-text modules to quickly collect all information and AI based tools to filter and assess the information provided by the doctor. The assistant also makes sure the doctor did not forget to mention any important part of the diagnosis."
         buttonText="Get Started"
         buttonColor="primary"
@@ -45,15 +46,24 @@ function IndexPage(props) {
         title="Features"
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
       ></FeaturesSection>
-      <TestimonialsSection
-        bg="light"
+      <TeamBiosSection
+        bg="white"
         textColor="dark"
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Here's what users are saying"
+        title="Meet the Team"
         subtitle=""
-      ></TestimonialsSection>
+      ></TeamBiosSection>
+      {/*<TestimonialsSection*/}
+      {/*  bg="light"*/}
+      {/*  textColor="dark"*/}
+      {/*  size="md"*/}
+      {/*  bgImage=""*/}
+      {/*  bgImageOpacity={1}*/}
+      {/*  title="Here's what users are saying"*/}
+      {/*  subtitle=""*/}
+      {/*></TestimonialsSection>*/}
       {/*<NewsletterSection*/}
       {/*  bg="white"*/}
       {/*  textColor="dark"*/}

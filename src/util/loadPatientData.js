@@ -6,7 +6,6 @@ function loadPatientData() {
     headers: {
       "Content-Type": "application/json",
       'Access-Control-Allow-Origin':'',
-      "mode": ""
     },
   }).then(r => {console.log(r)});
 }

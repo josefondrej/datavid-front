@@ -19,7 +19,7 @@ function NavbarCustom(props) {
               src={props.logo}
               alt="Logo"
               height="30"
-            ></img> DataVid
+            ></img> DataVID
           </Navbar.Brand>
         </LinkContainer>
 

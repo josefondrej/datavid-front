@@ -31,7 +31,7 @@ function App(props) {
 
             <Route exact path="/about" component={AboutPage} />
 
-            <Route exact path="/faq" component={FaqPage} />
+            {/*<Route exact path="/faq" component={FaqPage} />*/}
 
             <Route exact path="/pricing" component={PricingPage} />
 
@@ -71,7 +71,7 @@ function App(props) {
             bgImage=""
             bgImageOpacity={1}
             description="A short description of what you do here"
-            copyright="© 2020 DataVid"
+            copyright="© 2020 DataVID"
             logo="/logo.png"
           ></Footer>
         </>

@@ -24,29 +24,35 @@ function FeaturesSection(props) {
         <Features
           items={[
             {
-              title: "Explore",
+              title: "CoVID-19",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg"
+                "TODO",
+              image: "https://image.flaticon.com/icons/svg/2659/2659980.svg"
+            },
+            {
+              title: "Artificial Intelligence",
+              description:
+                "TODO",
+              image: "https://image.flaticon.com/icons/svg/1671/1671429.svg"
             },
             {
               title: "Speech Recognition",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "TODO",
               image:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Speech-to-text.svg/2560px-Speech-to-text.svg.png"
+                "https://image.flaticon.com/icons/svg/503/503947.svg"
             },
             {
               title: "Prescription",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image: "http://m4solutions.com.sg/wp-content/uploads/2016/01/MedicalDox-300x300.png"
+                "TODO",
+              image: "https://image.flaticon.com/icons/svg/1192/1192711.svg"
             },
             {
-              title: "Explore",
+              title: "Doctor",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image: "https://uploads.divjoy.com/undraw-balloons_vxx5.svg"
+                "TODO",
+              image: "https://image.flaticon.com/icons/svg/843/843293.svg"
             }
           ]}
         ></Features>

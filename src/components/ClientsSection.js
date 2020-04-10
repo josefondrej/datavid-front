@@ -20,20 +20,20 @@ function ClientsSection(props) {
           size={2}
           spaced={true}
         ></SectionHeader>
-        <Clients
-          items={[
-            {
-              name: "Pornhub",
-              image: "https://download.logo.wine/logo/Pornhub/Pornhub-Logo.wine.png",
-              width: "150px"
-            },
-            {
-              name: "Agrofert",
-              image: "https://i.pinimg.com/originals/07/72/03/077203a0940440805a622d78b541ed43.jpg",
-              width: "135px"
-            }
-          ]}
-        ></Clients>
+        {/*<Clients*/}
+        {/*  items={[*/}
+        {/*    {*/}
+        {/*      name: "Pornhub",*/}
+        {/*      image: "https://download.logo.wine/logo/Pornhub/Pornhub-Logo.wine.png",*/}
+        {/*      width: "150px"*/}
+        {/*    },*/}
+        {/*    {*/}
+        {/*      name: "Agrofert",*/}
+        {/*      image: "https://i.pinimg.com/originals/07/72/03/077203a0940440805a622d78b541ed43.jpg",*/}
+        {/*      width: "135px"*/}
+        {/*    }*/}
+        {/*  ]}*/}
+        {/*></Clients>*/}
       </Container>
     </Section>
   );

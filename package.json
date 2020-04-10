@@ -16,7 +16,9 @@
     "react-bootstrap": "1.0.0-beta.16",
     "bootstrap": "4.4.1",
     "query-string": "6.9.0",
-    "auth0-js": "9.12.1"
+    "auth0-js": "9.12.1",
+    "uuid": "7.0.3",
+    "react-websocket": "2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

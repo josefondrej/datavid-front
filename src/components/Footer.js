@@ -19,11 +19,11 @@ function Footer(props) {
             <Link to="/">
               <img src={props.logo} alt="Logo"></img>
             </Link>
-              &nbsp;&nbsp;DataVid
+              &nbsp;&nbsp;DataVID
           </div>
           <div className="links right">
             <Link to="/about">About</Link>
-            <Link to="/faq">FAQ</Link>
+            {/*<Link to="/faq">FAQ</Link>*/}
             <Link to="/contact">Contact</Link>
             {/*<a*/}
             {/*  target="_blank"*/}
