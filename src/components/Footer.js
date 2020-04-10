@@ -25,43 +25,43 @@ function Footer(props) {
             <Link to="/about">About</Link>
             <Link to="/faq">FAQ</Link>
             <Link to="/contact">Contact</Link>
-            <a
-              target="_blank"
-              href="https://medium.com"
-              rel="noopener noreferrer"
-            >
-              Blog
-            </a>
+            {/*<a*/}
+            {/*  target="_blank"*/}
+            {/*  href="https://medium.com"*/}
+            {/*  rel="noopener noreferrer"*/}
+            {/*>*/}
+            {/*  Blog*/}
+            {/*</a>*/}
           </div>
-          <div className="social right">
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="icon">
-                <i className="fab fa-twitter"></i>
-              </span>
-            </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="icon">
-                <i className="fab fa-facebook-f"></i>
-              </span>
-            </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="icon">
-                <i className="fab fa-instagram"></i>
-              </span>
-            </a>
-          </div>
+          {/*<div className="social right">*/}
+          {/*  <a*/}
+          {/*    href="https://twitter.com"*/}
+          {/*    target="_blank"*/}
+          {/*    rel="noopener noreferrer"*/}
+          {/*  >*/}
+          {/*    <span className="icon">*/}
+          {/*      <i className="fab fa-twitter"></i>*/}
+          {/*    </span>*/}
+          {/*  </a>*/}
+          {/*  <a*/}
+          {/*    href="https://facebook.com"*/}
+          {/*    target="_blank"*/}
+          {/*    rel="noopener noreferrer"*/}
+          {/*  >*/}
+          {/*    <span className="icon">*/}
+          {/*      <i className="fab fa-facebook-f"></i>*/}
+          {/*    </span>*/}
+          {/*  </a>*/}
+          {/*  <a*/}
+          {/*    href="https://instagram.com"*/}
+          {/*    target="_blank"*/}
+          {/*    rel="noopener noreferrer"*/}
+          {/*  >*/}
+          {/*    <span className="icon">*/}
+          {/*      <i className="fab fa-instagram"></i>*/}
+          {/*    </span>*/}
+          {/*  </a>*/}
+          {/*</div>*/}
           <div className="copyright left">{props.copyright}</div>
         </div>
       </Container>
