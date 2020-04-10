@@ -43,7 +43,7 @@ class AddDataPage extends React.Component {
             size="md"
             bgImage=""
             bgImageOpacity={1}
-            title="Fill in patient data"
+            title="Fill In Patient Data"
             subtitle=""
             buttonText="Send data"
             buttonColor="primary"
